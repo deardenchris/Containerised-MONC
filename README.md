@@ -21,7 +21,7 @@ To load an interactive shell within the container:
 
 `singularity shell -H /path/to/sanitised/home monc.simg`
 
-NOTE - without the `-H` option, Singularity will bind your host $HOME inside the container, so that it has read-write access to $HOME on your host machine. However, in this instance it is recommended to use the `-H` option in order to specify a sanitisied $HOME for use inside the container instead. For more info on the `-H` option, see [The Singularity FAQ page](https://singularity.lbl.gov/faq), under 'The container isn't working on a different host!' section.
+NOTE - without the `-H` option, Singularity will bind your host $HOME inside the container, so that it has read-write access to $HOME on your host machine. However, in this instance it is recommended to use the `-H` option in order to specify a sanitised $HOME for use inside the container instead. For more info on the `-H` option, see [The Singularity FAQ page](https://singularity.lbl.gov/faq), under 'The container isn't working on a different host!' section.
 
 Once inside the container, you will need to cache your MOSRS password by running the following:
 
